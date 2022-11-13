@@ -25,6 +25,7 @@ class Server {
 
     //* JSON middleware
     this.app.use(express.json());
+
     this.setRoute();
     //* 404 middleware
     this.app.use((req, res, next) => {
